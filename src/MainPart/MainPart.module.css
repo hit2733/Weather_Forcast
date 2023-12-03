@@ -1,0 +1,215 @@
+.container {
+  margin: 0 4em 0 4em;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  /* background-color: #394d75; */
+}
+
+.upperDiv {
+  font-weight: 500;
+  text-shadow: 2px 2px 5px rgb(247, 87, 87);
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  border: 0px solid rgb(247, 87, 87);
+  box-shadow: 6px 5px 5px rgb(247, 87, 87);
+  min-height: 13em;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 10px;
+  background: rgb(43, 48, 53);
+}
+img {
+  margin: 10px;
+}
+.temp {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 52px;
+  color: rgb(247, 87, 87);
+  text-shadow: 2px 2px 5px rgb(247, 87, 87);
+  margin: 10px 0;
+}
+@media only screen and (max-width: 720px) {
+  .rainTemp {
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 2px solid ; */
+  }
+}
+@media only screen and (min-width: 719px) {
+  .rainTemp {
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 2px solid; */
+    justify-content: space-between;
+    min-width: 37em;
+    margin-bottom: 1em;
+  }
+}
+.feelsLike {
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid red; */
+  justify-content: center;
+  padding: 10px;
+  margin: 0 10px 0 10px;
+  text-shadow: 2px 2px 5px rgb(247, 87, 87);
+}
+.weekInnerDiv {
+  display: flex;
+  font-size: 14px;
+}
+.weekDate {
+  font-size: 13px;
+  padding-bottom: 8px;
+  margin-left: -3em;
+  font-weight: 600;
+  text-shadow: 2px 2px 5px rgb(247, 87, 87);
+  color: rgb(247, 87, 87);
+  /* border: 2px solid red; */
+}
+.minmaxOfWeek {
+  text-shadow: 2px 2px 5px rgb(247, 87, 87);
+  color: rgb(247, 87, 87);
+  font-weight: 600;
+}
+.lastpartOfUpperDiv {
+  display: flex;
+  flex-wrap: wrap;
+}
+.minorInfo {
+  margin-right: 1.5em;
+  padding: 4px;
+  border-radius: 2px;
+}
+
+.details {
+  margin-top: 0em;
+}
+
+.mistRain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 18px;
+}
+
+.tempDay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 30px;
+  color: rgb(247, 87, 87);
+}
+
+.weeklyUpdate {
+  border: 2px sol1id green;
+  min-height: 13.5vh;
+  padding: 0em;
+  margin-top: 0.5em;
+}
+
+.makeItRow {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.inpPlace {
+  display: flex;
+  box-sizing: border-box;
+  width: 8em;
+  border: 2px solid rgb(247, 87, 87);
+  margin-top: 0em;
+  padding: 4px;
+  height: 2em;
+  font-size: 18px;
+  flex-direction: column;
+  border-radius: 4px;
+  box-shadow: 2px 2px 5px rgb(247, 87, 87);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.description {
+  min-width: 40em;
+  font-size: 16px;
+}
+
+.highlight {
+  color: rgb(247, 87, 87);
+  margin-right: 0;
+  padding: 20px;
+  border: 0px solid rgb(247, 87, 87);
+  box-shadow: 6px 5px 5px rgb(247, 87, 87);
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  font-size: 18px;
+  background: rgb(43, 48, 53);
+}
+
+.HighlightHeading {
+  margin-top: 20px;
+  color: rgb(247, 87, 87);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-shadow: 2px 2px 2px rgb(133, 212, 238);
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.Card {
+  margin: 1em 2em 0.2em 0;
+  border: 0px solid rgb(247, 87, 87);
+  background: white;
+  border-radius: 6px;
+  box-shadow: 6px 5px 10px rgb(247, 87, 87);
+  box-sizing: border-box;
+  width: 14em;
+  display: flex;
+  height: 4.5em;
+  justify-content: space-between;
+  padding: 4px;
+  text-shadow: 2px 2px 5px rgb(247, 87, 87);
+  color: rgb(247, 87, 87);
+}
+
+.greyIt {
+  color: grey;
+}
+
+.smallCardContainer {
+  display: flex;
+  justify-content: space-around;
+  border-radius: 5px;
+  flex-wrap: wrap;
+  padding: 15px 10px 15px 10px;
+  border: 0px solid rgb(247, 87, 87);
+  box-shadow: 6px 5px 5px rgb(247, 87, 87);
+  margin-left: 0em;
+  margin-right: 0em;
+  background: rgb(43, 48, 53);
+}
+
+.smallCards {
+  border: 0px solid rgb(247, 87, 87);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 5em;
+  border-radius: 6px;
+  box-shadow: 6px 5px 5px rgb(247, 87, 87);
+  margin-right: 4px;
+  padding: 8px;
+  margin-top: 10px;
+  font-size: 18px;
+  background: white;
+}
+.errorMsg {
+  color: red;
+  font-weight: 800;
+  text-align: center;
+}
